@@ -1,0 +1,64 @@
+html,
+body {
+	margin:0;
+	padding:0;
+	color:#000;
+	background:#fff;
+}
+#wrapper {
+	width:960px;
+	margin:0 auto;
+	background:#ddd;
+}
+#geneLists {
+	background:#fdd;
+}
+#geneLists .geneTable1{
+	height: 100px;
+	overflow-y: scroll;
+	width:100%;
+}
+table {border-collapse:collapse; border-radius: 5px;}
+th{
+	font-family: Times; 
+	color:black; 
+	font-size: 11pt;
+	border-bottom:1px solid #fff;
+	border-right:1px solid #fff;border-left:1px solid #fff;
+	color:#fff;padding:1px 1px 0;
+	background-color: #006BB2;
+	}
+td{
+	font-family:Times; 
+	color:black; 
+	font-size:11pt;
+	align:'right';
+	border-bottom:1px solid #fff;
+	border-right:1px solid #fff;
+	color:black;padding:1px 1px 0 }
+
+tr {background-color:#F8FBFF}
+
+checkbox{
+	color: grey;
+}
+
+#geneLists .geneTable2{
+	heigh:200px;
+	overflow-y: scroll;
+}
+#PPI {
+	background:#bfb;
+	float:left;
+	width:500px;
+}
+#pathwayEnrichment {
+	background:#ddf;
+	float:right;
+	width:500px;
+}
+#miRNAsim {
+	background:#dff;
+}
+
+	

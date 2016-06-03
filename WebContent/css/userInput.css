@@ -1,0 +1,700 @@
+	html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: #FFFFFF;
+		font-family: 'Varela', sans-serif;
+		font-size: 11pt;
+		font-weight: 300;
+		color: balck;
+	}	
+	
+	h1,h3
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: 700;
+		color: #91C9C6;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	ul.actions
+	{
+		text-align: center;
+	}
+		
+		ul.actions li
+		{
+		}
+	
+	p
+	{
+		line-height: 180%;
+	}
+	
+	strong
+	{
+	}
+	
+	a
+	{
+		color: #0000FF;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		overflow: hidden;
+		margin:  auto;
+	
+	}
+	
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+	{
+		display: inline-block;
+	}
+	
+	.image img
+	{
+		display: block;
+		width: 100%;
+	}
+	
+	.image-full
+	{
+		display: block;
+		width: 100%;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-left
+	{
+		float: left;
+		margin: 0 2em 2em 0;
+	}
+	
+	.image-centered
+	{
+		display: block;
+		margin: 0 0 2em 0;
+	}
+	
+	.image-centered img
+	{
+		margin: 0 auto;
+		width: auto;
+	}
+
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.staff
+	{
+		margin-bottom: 3em;
+	}
+
+	ul.staff li
+	{
+		display: inline-block;
+	}
+	
+	ul.staff li img
+	{
+		width: 80%;
+		border-radius: 50%;
+	}
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+	{
+		margin: 0;
+		padding: 2em 0em 0em 0em;
+		list-style: none;
+	}
+	
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.30em;
+		font-size: 1em;
+	}
+	
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.contact li a
+	{
+		color: #FFF;
+	}
+	
+	ul.contact li a:before
+	{
+		display: inline-block;
+		background: #3f3f3f;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	
+	ul.contact li a.icon-twitter:before { background: #2DAAE4; }
+	ul.contact li a.icon-facebook:before { background: #39599F; }
+	ul.contact li a.icon-dribbble:before { background: #C4376B;	}
+	ul.contact li a.icon-tumblr:before { background: #31516A; }
+	ul.contact li a.icon-rss:before { background: #F2600B; }
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		padding: 0em 3em;
+		background: #CA85DB;
+		border-radius: 8px;
+		letter-spacing: 0.20em;
+		line-height: 4em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1em;
+		color: #FFF;
+	}
+	
+	.button:before
+	{
+		display: inline-block;
+		background: #FFC31F;
+		margin-right: 1em;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #272925;
+	}
+	
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+	{
+		margin-bottom: 3em;
+	}
+	
+	.title h2
+	{
+		font-size: 2.5em;
+
+		font-weight: 520;
+		color: #91C9C6;
+		text-align: center;
+		margin: 20px auto 0px;
+		font-family: EB Garamond;
+		
+	}
+	}
+	
+	.title .byline
+	{
+		font-size: 1.7em;
+		color: #6F6F6F;
+	}
+	
+		
+/*********************************************************************************/
+/* 4-column                                                                      */
+/*********************************************************************************/
+
+	.box1,
+	.box2,
+	.box3,
+	.box4
+	{
+		width: 235px;
+	}
+	
+	.box1,
+	.box2,
+	.box3,
+	{
+		float: left;
+		margin-right: 20px;
+	}
+	
+	.box4
+	{
+		float: right;
+	}
+	
+/*********************************************************************************/
+/* 3-column                                                                      */
+/*********************************************************************************/
+	#three-column{
+	width: 900px;
+	margin: 20px 150px 50px;
+	display: inline-block;
+	}
+	.boxA,
+	.boxB,
+	.boxC
+	{
+		width: 250px;
+	}
+
+	.boxA
+	{
+		float: left;
+		margin-right: 50px;
+		margin-left: 50px;
+	}
+	.boxB{
+		float: left;
+		margin-right: 50px;
+	}
+	
+	.boxC
+	{
+		float: right;
+	}
+
+/*********************************************************************************/
+/* 2-column                                                                      */
+/*********************************************************************************/
+
+	.tbox1,
+	.tbox2
+	{
+		width: 575px;
+	}
+	
+	.tbox1
+	{
+		float: left;
+	}
+
+	.tbox2
+	{
+		float: right;
+	}
+	
+	#wrapper
+	{
+		background: #FFF;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		position: relative;
+
+		background: #FFFFFF
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo
+	{
+		position: relative;
+
+	}
+	
+	#logo h1
+	{
+		color: #000000;
+	}
+	
+
+	#logo .image
+	{
+		background: url("../images/images-4.jpg") no-repeat;
+		height:150px; 
+		width: 450px;
+		position: relative;
+
+	}
+	#logo .text{
+		color: #91C9C6;
+		font-family: 'EB Garamond';
+		font-size: 35px;
+		height: 2.5em;
+
+	}
+	#logo .image, #logo .text{
+		display: inline-block;
+		vertical-align: bottom;
+
+	}
+	
+	
+	
+
+
+	@font-face {
+ 	 font-family: 'EB Garamond';
+  	font-style: normal;
+  	font-weight: 400;
+  	src: local('EB Garamond'), local('EBGaramond'), url(http://fonts.gstatic.com/s/ebgaramond/v7/kYZt1bJ8UsGAPRGnkXPeFfZraR2Tg8w2lzm7kLNL0-w.woff2) format('woff2');
+  	unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+	}
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu
+	{
+		position: absolute;
+		top: 2em;
+		right: 0;
+	}
+	
+	#menu ul
+	{
+		display: inline-block;
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span
+	{
+		padding: 1em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		font-size: 0.8em;
+		color: #2B3F48;
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		color: #2B3F48;
+	}
+	
+	#menu .current_page_item a
+	{
+		border: 2px solid #CA85DB;
+		border-radius: 6px;
+		color: #CA85DB;
+	}
+	
+	#menu .icon
+	{
+	}
+
+	hr {
+  	border: 0;
+  	border-top: 4px double #91C9C6;
+  	text-align: center;
+  	box-shadow: 0 0 10px 1px #91C9C6;
+	}
+	hr:after {
+  	display: inline-block;
+  	position: relative;
+  	top: -15px;
+  	padding: 0 10px;
+  	background: #fff;
+  	color: #91C9C6;
+  	font-size: 18px;
+}
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		overflow: hidden;
+		padding: 7em 0em 5em 0em;
+		background: #91C9C6 no-repeat center;
+		background-size: cover;
+		text-align: center;
+		color: rgba(0,255,255,.8);
+	}
+
+	#banner .title
+	{
+		margin-bottom: 1em;
+		text-transform: !important;
+	}
+
+	#banner .title h2
+	{
+		color: #FFF;
+		font-family: EB Garamond;
+
+	}
+
+	#banner .title .byline
+	{
+		color: rgba(255,255,255,.6);
+	}
+	
+	#banner .button
+	{
+		margin-top: 0;
+		background: #9C39AE !important;
+	}
+
+
+	#input label, input[type = text]
+	{
+		color: #91C9C6;
+		font-family: EB Garamond;
+		font-size: 150%;
+		display: inline-block;
+	
+	}
+	
+	#input label+input[type=text]{
+		clear: left;
+	}
+	
+	#input {
+		padding: 0.4em 0.25em;
+margin: 4em 1em 1em;
+	background: transparent;
+
+	}
+	
+
+	#extra-block {
+	background-color: #eaf8fc;
+
+	font: EB Garamond;
+	padding: 10px;
+    margin: 20px 150px 50px;
+   	overflow: hidden; /* Clear floats */
+	}
+	
+	#extra-block label{
+		display: inline-block;
+		color:#83afb7;
+		font-size: 30px;
+		padding: 10px;
+
+   		overflow: hidden;
+   		text-align: center;
+ 		margin-right: 0;
+   		
+   		
+	}
+	#extra-block .text{
+	color:#83afb7;
+	font-family: EB Garamond;
+	font-weight: 300;
+	font-size: 100;
+	margin: 0px 150px 0;
+   	overflow: hidden; /* Clear floats */
+	}
+	
+	#searchbox1{
+	    background-color: #eaf8fc;
+    background-image: linear-gradient(#fff, #d4e8ec);
+    border-radius: 35px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c4d9df #a4c3ca #83afb7;            
+    width: 360px;
+    height: 45px;
+    padding: 10px;
+   	overflow: hidden; /* Clear floats */
+
+	}
+	#searchbox1 input{
+		float: left;
+	}
+	#searchbox1 input{
+	padding: 5px 9px;
+    height: 30px;
+    width: 350px;
+    border: 1px solid #a4c3ca;
+    font: normal 18px 'trebuchet MS', arial, helvetica;
+    background: #f1f1f1;
+    border-radius: 35px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1); 
+	}
+
+		#searchbox2{
+	    background-color: #eaf8fc;
+    background-image: linear-gradient(#fff, #d4e8ec);
+    border-radius: 35px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c4d9df #a4c3ca #83afb7;            
+    width: 360px;
+    height: 45px;
+    padding: 10px;
+    margin: 30px -100 50px;
+   	overflow: hidden; /* Clear floats */
+	}
+	#searchbox2 input, label{
+		float: left;
+	}
+	#searchbox2 input{
+	padding: 5px 9px;
+    height: 30px;
+    width: 350px;
+    border: 1px solid #a4c3ca;
+    font: normal 18px 'trebuchet MS', arial, helvetica;
+    background: #f1f1f1;
+    border-radius: 35px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1); 
+	}
+	
+	input[type= radio]{
+		border-radius: 8px;
+		background-color: #aaa;  
+    	box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3)
+	}
+	
+	input[type = submit]{
+		border-radius: 80px;
+		height: 60px;
+		width: 150px;
+		font-size: 22px;
+		color: #FFF;
+		background: #91C9C6;
+		font-family:EB Garamond;
+	
+	}
+/*
+	.input1
+	{
+		margin-top:1em;
+		margin-left: auto;
+		margin-right: auto;
+
+
+	}
+	.input2
+	
+	{
+		margin-top:1em;
+		margin-right: auto;
+		margin-left: auto;
+
+		
+
+	}
+	
+*/
+	
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page
+	{
+		padding: 5em 0em;
+		text-align: center;
+	}
+	
+	#page .button
+	{
+		margin-top: 2em;
+		display: inline-block;
+		text-align: center;
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+	}
+	input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+	{
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+		background: #91C9C6;
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		font-family: EB Garamond;
+		font-size: 18px;
+		overflow: hidden;
+		padding: 3em 0em;
+		border-top: 1px solid rgba(255,255,255,0.08);
+		background: #91C9C6;
+	}
+	
+	#copyright p
+	{
+		text-align: center;
+		font-size: 1em;
+		color: rgba(255,255,255,0.5);
+	}
+	
+	#copyright a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,0.8);
+	}
+
